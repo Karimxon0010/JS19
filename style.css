@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal_wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_wrapper .modal {
+    width: 500px;
+    min-height: 300px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 8px gray;
+    padding: 2rem;
+    position: relative;
+}
+
+.modal_wrapper .modal .button01 {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+    font-weight: bolder;
+    border: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+/* .card_wrapper {
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card_wrapper .card {
+    width: 25%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: aqua;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 25px;
+} */
+
